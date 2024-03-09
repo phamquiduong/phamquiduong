@@ -1,7 +1,13 @@
-<h1 align="center">Hi 👋, I'm <a href="https://beacons.ai/PQD" target="blank">
-Pham Qui Duong</a></h1>
-<h3 align="center">Python Developer from VietNam
-<img src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Vietnam-Flag-icon.png" width="16" height="16"></h3><br>
+<h1 align="center">
+	Hi 👋, I'm <a href="https://beacons.ai/PQD" target="blank">Duong</a>
+</h1>
+
+<h3 align="center">
+	Python Developer from VietNam
+	<img src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Vietnam-Flag-icon.png" width="16" height="16">
+<h3>
+
+<br>
 
 <p align="left">
 	<img src="https://komarev.com/ghpvc/?username=phamquiduong&label=Profile%20views&color=0e75b6&style=flat" alt="Pham Qui Duong" />
@@ -13,15 +19,15 @@ Pham Qui Duong</a></h1>
 ---
 
 ### Contact Information
-> - **Date of birth:** Sep 12, 1999
+> - **Full name:** Pham Qui Duong
+> - **Date of birth:** Sep 12th, 1999
 > - **Gender:** Male
 > - **Address:** [Da Nang, Viet Nam](https://maps.app.goo.gl/9a21WfjSv58gNSeM9)
 > - **Phone:** [+84 967 557 910](tel:+84967557910)
 > - **Email:** [phamquiduong@outlook.com](mailto:phamquiduong@outlook.com)
 > - **Link**:
 > 	- [Beacons Page - All Social Account](https://beacons.ai/pqd)
->	- [Facebook](https://www.facebook.com/PhamQuiDuong)
->	- [Google Sites - My Blog](https://sites.google.com/view/phamquiduong)
+>	- [Facebook - Phạm Quí Dương](https://www.facebook.com/PhamQuiDuong)
 
 <br>
 
@@ -31,16 +37,19 @@ Pham Qui Duong</a></h1>
 
 ### Expiences
 > - **Have knowledge base:**
-> 	- Algorithm.
-> 	- Problem solving mindset.
+> 	- Algorithm
+> 	- Problem solving mindset
+> 	- Can self-learning
 > - **Practical knowledge:**
-> 	- Program language: Pascal, C/C++, Java, JS, .etc.. And the most language I like is [Python](https://www.python.org/).
-> 	- Technology: Web Development
-> - **Interesting Experiment:**
-> 	- Code clean and good experience.
-> 	- SCM: [Git](https://git-scm.com/)
-> 	- Profesional: [Docker](https://www.docker.com/)
-> 	- Work with [AWS](https://aws.amazon.com/): EC2, Lambda, S3, .ect..
+> 	- Program language: C/C++, Java, JS, .etc.. And the most language I like is [Python](https://www.python.org/).
+> 	- Technology: [Web technology](https://en.wikipedia.org/wiki/Web_development)
+> - **Actual Work:**
+> 	- Code clean and good experience
+> 	- Frameworks: [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/3.0.x/), [FastAPI](https://fastapi.tiangolo.com/)
+> 	- Database: [SQL](https://en.wikipedia.org/wiki/SQL) ([MySQL](https://www.mysql.com/), [PostgreSQL](https://www.postgresql.org/), [SQlite](https://www.sqlite.org/)) | NoSQL
+> 	- Can code [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS), [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+> 	- Can use [Docker & Docker compose](https://www.docker.com/)
+> 	- Can work with [Amazon Web Services](https://aws.amazon.com/): EC2, ECR, Lambda, API Gateway, S3, CloudFront, ...
 
 <br>
 
@@ -69,20 +78,20 @@ Pham Qui Duong</a></h1>
 
 ### Honors & Awards
 > - 2015
-> 	- First Prize in Information Technology at city level competition (Quang Ngai city) in grade 11
+> 	- The first prize in the provincial-level Informatics in Quang Ngai
 > - 2016
-> 	- Second Prize in Information Technology at city level competition (Quang Ngai city) in grade 12
+> 	- The second prize in the provincial-level Informatics in Quang Ngai
 
 <br>
 
 ---
 
-### Detail about myself
-> - [TOP CV - English](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.topcv.vn%2Fxem-cv%2FUlYOXldXUAwBDFRXB1dSUFQGAQdSBAkCWAVaUA8bfe%3Ffbclid%3DIwAR0zpDNmHHadR1Z_N44YwpWa7wmySVGu4hgcSd1Cr0gQwbutk6xuQoh-y0E&h=AT0yY-k1csaw5reeaJ0cAlikbdZuJrCA7lv_pK2Sxdu-WbyQ_24Fv7XPBGp2zVyN38etCrcpg57xVHwtYlj6Hn15qafoMlBNnZBp_MoWJ-VSrU4Hw10Crs7PSC8gCk9aLz8UTAp72Cs)
+### More detail about me
+> - [My CV in topcv.vn](https://www.topcv.vn/xem-cv/UlYOXldXUAwBDFRXB1dSUFQGAQdSBAkCWAVaUA8bfe)
 
 <br>
 
 ---
 
 > Credit: [Pham Qui Duong](https://github.com/phamquiduong) <br>
-> *Last Edited on: Nov 09, 2023*
+> *Last Edited on: March 09, 2024*
