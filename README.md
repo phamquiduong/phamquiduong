@@ -26,7 +26,6 @@
 > - **Phone:** [+84 967 557 910](tel:+84967557910)
 > - **Email:** [phamquiduong@outlook.com](mailto:phamquiduong@outlook.com)
 > - **Link**:
-> 	- [Beacons Page - All Social Account](https://beacons.ai/pqd)
 >	- [Facebook - Phạm Quí Dương](https://www.facebook.com/PhamQuiDuong)
 
 <br>
@@ -35,40 +34,16 @@
 
 <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
 
-### Expiences
-> - **Have knowledge base:**
-> 	- Algorithm
-> 	- Problem solving mindset
-> 	- Can self-learning
-> - **Practical knowledge:**
-> 	- Program language: C/C++, Java, JS, .etc.. And the most language I like is [Python](https://www.python.org/).
-> 	- Technology: [Web technology](https://en.wikipedia.org/wiki/Web_development)
-> - **Actual Work:**
-> 	- Code clean and good experience
-> 	- Frameworks: [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/3.0.x/), [FastAPI](https://fastapi.tiangolo.com/)
-> 	- Database: [SQL](https://en.wikipedia.org/wiki/SQL) ([MySQL](https://www.mysql.com/), [PostgreSQL](https://www.postgresql.org/), [SQlite](https://www.sqlite.org/)) | NoSQL
-> 	- Can code [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS), [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-> 	- Can use [Docker & Docker compose](https://www.docker.com/)
-> 	- Can work with [Amazon Web Services](https://aws.amazon.com/): EC2, ECR, Lambda, API Gateway, S3, CloudFront, ...
-
-<br>
-
----
-
 ### Education
 > - Sep 2014 - 2017
-> 	- **Student - join team participate city level competition for IT.**
+> 	- **As a student, join a team to participate in a city-level IT competition.**
 > 	- <a href='http://tkp.edu.vn/' target='blank'>Tran Ky Phong High School</a>
 > - Sep 2017 - 2023
-> 	- **K17 student of IT faculty.**
+> 	- **As a K17 student of the IT faculty.**
 > 	- <a href = 'https://en.dut.udn.vn/' target='blank'>University of Science and Technology - The University of Da Nang</a>
 
-<br>
-
----
-
 ### Work
-> - Sep 2021 - Present
+> - Jul 2021 - Now
 >	- **Python Developer**
 >	- <a href='https://nals.vn/en/' target='blank'>Nal Solution Da Nang</a>
 
@@ -94,4 +69,4 @@
 ---
 
 > Credit: [Pham Qui Duong](https://github.com/phamquiduong) <br>
-> *Last Edited on: March 09, 2024*
+> *Last Edited on: April 08, 2024*
