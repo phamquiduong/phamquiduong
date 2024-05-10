@@ -1,5 +1,5 @@
 <h1 align="center">
-	Hi 👋, I'm <a href="https://beacons.ai/PQD" target="blank">Duong</a>
+	Hi 👋, I'm <a href="https://beacons.ai/phamquiduong" target="blank">Duong</a>
 </h1>
 
 <h3 align="center">
