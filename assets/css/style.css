@@ -1,0 +1,48 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    scroll-snap-type: y mandatory;
+}
+
+.container {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(300px);
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic_info {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+}
+
+.basic_info-detail-title {
+    font-weight: bold;
+}
+
+.avatar {
+    text-align: right;
+}
+
+#avatar_img {
+    height: 342px;
+    width: 342px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+}
