@@ -66,13 +66,16 @@ body {
     }
 
     #avatar_img {
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
     }
-    .avatar{
+
+    .avatar {
         text-align: center;
     }
-    h1, h5{
+
+    h1,
+    h6 {
         text-align: center;
     }
 }
