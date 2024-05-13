@@ -60,7 +60,14 @@ body {
     animation: slideInUp 1.9s;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 770px) {
+    .basic_info {
+        column-gap: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
     .basic_info {
         grid-template-columns: auto;
     }
