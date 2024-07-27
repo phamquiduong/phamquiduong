@@ -20,13 +20,11 @@
 
 ### Contact Information
 > - **Full name:** Pham Qui Duong
-> - **Date of birth:** Sep 12th, 1999
+> - **Year of birth:** 1999
 > - **Gender:** Male
 > - **Address:** [Binh Duong, Binh Son, Quang Ngai, Viet Nam](https://maps.app.goo.gl/asHjSnJ8Qu7hzeyF9)
-> - **Phone:** [+84 967 557 910](tel:+84967557910)
 > - **Email:** [phamquiduong@outlook.com](mailto:phamquiduong@outlook.com)
-> - **Link**:
->	- [Facebook - Phạm Quí Dương](https://www.facebook.com/PhamQuiDuong)
+> - **Website**: [Personal page](https://phamquiduong.github.io/phamquiduong/)
 
 <br>
 
