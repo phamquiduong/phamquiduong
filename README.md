@@ -24,7 +24,7 @@
 > - **Gender:** Male
 > - **Address:** [Binh Duong, Binh Son, Quang Ngai, Viet Nam](https://maps.app.goo.gl/asHjSnJ8Qu7hzeyF9)
 > - **Email:** [phamquiduong@outlook.com](mailto:phamquiduong@outlook.com)
-> - **Website**: [More detail about me](https://phamquiduong.github.io/phamquiduong/)
+> - **Website**: [More information about me](https://phamquiduong.github.io/phamquiduong/)
 
 <br>
 
