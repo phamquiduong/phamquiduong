@@ -42,7 +42,7 @@
 
 <br>
 
-### Work
+### Work experience
 > - Jul 2021 - Now
 >	- **Python Developer**
 >	- [Nal Solution Da Nang](https://nals.vn/)
