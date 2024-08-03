@@ -22,9 +22,9 @@
 > - **Full name:** Pham Qui Duong
 > - **Year of birth:** 1999
 > - **Gender:** Male
-> - **Address:** <a href="https://maps.app.goo.gl/asHjSnJ8Qu7hzeyF9" target="blank">Binh Duong, Binh Son, Quang Ngai, Viet Nam</a>
-> - **Email:** <a href="mailto:phamquiduong@outlook.com" target="blank">phamquiduong@outlook.com</a>
-> - **Website**: <a href="https://phamquiduong.github.io/phamquiduong/" target="blank">More detail about me</a>
+> - **Address:** [Binh Duong, Binh Son, Quang Ngai, Viet Nam](https://maps.app.goo.gl/asHjSnJ8Qu7hzeyF9)
+> - **Email:** [phamquiduong@outlook.com](mailto:phamquiduong@outlook.com)
+> - **Website**: [More detail about me](https://phamquiduong.github.io/phamquiduong/)
 
 <br>
 
@@ -35,23 +35,25 @@
 ### Education
 > - Sep 2014 - 2017
 > 	- **As a student, join a team to participate in a city-level IT competition.**
-> 	- <a href="http://tkp.edu.vn/" target="blank">Tran Ky Phong High School</a>
+> 	- [Tran Ky Phong High School](http://tkp.edu.vn/)
 > - Sep 2017 - 2023
 > 	- **As a K17 student of the IT faculty.**
-> 	- <a href = "https://en.dut.udn.vn/" target="blank">University of Science and Technology - The University of Da Nang</a>
+> 	- [University of Science and Technology - The University of Da Nang](https://dut.udn.vn/)
 
 <br>
 
 ### Work
 > - Jul 2021 - Now
 >	- **Python Developer**
->	- <a href="https://nals.vn/en/" target="blank">Nal Solution Da Nang</a>
+>	- [Nal Solution Da Nang](https://nals.vn/)
 
 <br>
 
 <br>
 
 ---
+
+<br>
 
 > Credit: [Pham Qui Duong](https://github.com/phamquiduong) <br>
 > *Last Edited on: Aug 04, 2024*
