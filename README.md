@@ -1,5 +1,5 @@
 <h1 align="center">
-	Hi 👋, I'm <a href="https://phamquiduong.github.io/phamquiduong/" target="blank">Duong</a>
+	Hi 👋, I'm Duong
 </h1>
 
 <h3 align="center">
@@ -40,6 +40,8 @@
 > 	- **As a K17 student of the IT faculty.**
 > 	- <a href = 'https://en.dut.udn.vn/' target='blank'>University of Science and Technology - The University of Da Nang</a>
 
+<br>
+
 ### Work
 > - Jul 2021 - Now
 >	- **Python Developer**
@@ -47,24 +49,10 @@
 
 <br>
 
----
-
-### Honors & Awards
-> - 2015
-> 	- The first prize in the provincial-level Informatics in Quang Ngai
-> - 2016
-> 	- The second prize in the provincial-level Informatics in Quang Ngai
-
-<br>
-
----
-
-### More detail about me
-> - [My CV in topcv.vn](https://www.topcv.vn/xem-cv/UlYOXldXUAwBDFRXB1dSUFQGAQdSBAkCWAVaUA8bfe)
 
 <br>
 
 ---
 
 > Credit: [Pham Qui Duong](https://github.com/phamquiduong) <br>
-> *Last Edited on: April 08, 2024*
+> *Last Edited on: Aug 04, 2024*
