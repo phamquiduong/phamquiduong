@@ -1,6 +1,7 @@
 :root {
     --primary-color: #db9a64;
     --background-color: #311e25;
+    --background-color-2: #3b2930;
 }
 
 html {
@@ -65,7 +66,7 @@ nav {
     animation: gradient 15s ease infinite; */
     height: 55vh;
     min-height: 550px;
-    background-image: url('https://phamquiduong.github.io/phamquiduong/assets/img/suru-desktop-wallpaper-ubuntu-vivid.jpg');
+    background-image: url('https://149366088.v2.pressablecdn.com/wp-content/uploads/2015/03/suru-desktop-wallpaper-ubuntu-vivid.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
