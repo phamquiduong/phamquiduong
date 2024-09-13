@@ -92,6 +92,7 @@ nav {
 
 #contract {
     background-color: var(--background-color);
+    padding: 25px 0;
 }
 
 .container {
@@ -102,7 +103,6 @@ nav {
 .contract-title {
     font-size: 1.4rem;
     margin: 0 0 20px;
-    padding-top: 20px;
 }
 
 .contract-link {
