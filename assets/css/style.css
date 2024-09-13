@@ -1,88 +1,172 @@
+:root {
+    --primary-color: #db9a64;
+    --background-color: #311e25;
+}
+
+html {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: var(--primary-color);
+    text-shadow: 0 0 3px black;
+    min-width: 375px;
+}
+
 body {
-    scroll-snap-type: y mandatory;
+    margin: 0;
+    padding: 0;
 }
 
-.sections {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(300px);
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+button {
+    font-size: 1rem;
+    padding: 7px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
-.sections::-webkit-scrollbar {
-    display: none;
+button:hover {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
 }
 
-.section {
-    height: 100vh;
-    scroll-snap-align: start;
+a {
+    color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top: 10px;
+    align-items: center;
+    min-width: 375px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.navbar-link > a {
+    margin: 0 5px;
+}
+
+.navbar-chat {
+    margin-right: 20px;
+}
+
+.slider_area {
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; */
+    height: 55vh;
+    min-height: 550px;
+    background-image: url('https://phamquiduong.github.io/phamquiduong/assets/img/suru-desktop-wallpaper-ubuntu-vivid.jpg');
+    background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+}
+
+.slider_area-title {
+    font-size: 2rem;
+    height: 100%;
+    display: flex;
     align-items: center;
 }
 
-.basic_info {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 50px;
+.slider_area-avatar {
+    height: 85%;
+    display: flex;
+    align-items: end;
+    margin-left: 50px;
 }
 
-#avatar_img {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    border: 1px solid rgb(81, 81, 81);
-    background-color: black;
-    animation: slideInLeft 1s;
+.slider_area-avatar > img {
+    height: 100%;
 }
 
-.basic_info_detail-animation {
-    animation-name: slideInRight;
+#contract {
+    background-color: var(--background-color);
 }
 
-.basic_info_detail-animation:nth-child(1) {
-    animation-duration: 1s;
+.container {
+    max-width: 500px;
+    margin: auto;
 }
 
-.basic_info_detail-animation:nth-child(2) {
-    animation-duration: 1.3s;
+.contract-title {
+    font-size: 1.4rem;
+    margin: 0 0 20px;
+    padding-top: 20px;
 }
 
-.basic_info_detail-animation:nth-child(3) {
-    animation-duration: 1.6s;
+.contract-link {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200px;
 }
 
-.basic_info_detail-social-animation {
-    height: 100px;
-    animation: slideInUp 1.9s;
+.contract-link > div {
+    flex: 1 1 33.3%;
 }
 
-@media only screen and (max-width: 770px) {
-    .basic_info {
-        column-gap: 5px;
+.contract-link > div > a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+}
+
+.contract-link > div > a:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.contract-link > div > a > img {
+    margin-right: 10px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
 
-
-@media only screen and (max-width: 720px) {
-    .basic_info {
-        grid-template-columns: auto;
+@media only screen and (max-width: 900px) {
+    .slider_area-title {
+        font-size: 1.5rem;
     }
 
-    #avatar_img {
-        height: 180px;
-        width: 180px;
+    .slider_area-avatar {
+        height: 75%;
     }
+}
 
-    .avatar {
+@media only screen and (max-width: 700px) {
+    .slider_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .slider_area-title {
+        height: auto;
         text-align: center;
     }
 
-    h1,
-    h6 {
-        text-align: center;
+    .slider_area-avatar {
+        height: 55%;
     }
 }
