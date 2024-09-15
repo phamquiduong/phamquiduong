@@ -140,11 +140,10 @@
         window.addEventListener('scroll', function () {
             const navbar = document.getElementById('navbar');
 
-            // Kiểm tra vị trí cuộn của trang
             if (window.scrollY > 50) {
-                navbar.classList.add('scrolled'); // Thêm lớp khi cuộn xuống
+                navbar.classList.add('scrolled');
             } else {
-                navbar.classList.remove('scrolled'); // Loại bỏ lớp khi cuộn lên
+                navbar.classList.remove('scrolled');
             }
         });
     </script>
