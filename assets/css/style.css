@@ -41,9 +41,16 @@ nav {
     justify-content: space-between;
     position: fixed;
     width: 100vw;
-    top: 10px;
+    padding: 15px 0;
+    /* top:; */
     align-items: center;
     min-width: 375px;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+#navbar.scrolled {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-brand {
@@ -97,13 +104,13 @@ nav {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
 }
 
 .contract-title {
     font-size: 1.4rem;
-    margin: 0 0 20px;
+    margin: 0 20px 20px;
 }
 
 .contract-link {
@@ -111,6 +118,7 @@ nav {
     flex-wrap: wrap;
     flex-direction: column;
     height: 200px;
+    margin: 0 20px;
 }
 
 .contract-link > div {

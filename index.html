@@ -12,11 +12,13 @@
             rel="stylesheet"
         />
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
     </head>
     <body>
-        <nav>
+        <nav id="navbar">
             <div class="navbar-brand">POQ</div>
 
             <div class="navbar-link">
@@ -25,7 +27,7 @@
             </div>
 
             <div class="navbar-chat">
-                <button onclick="sendEmail()">Gửi mail</button>
+                <button onclick="sendEmail()">Gửi mail <i class="fa-regular fa-envelope"></i></button>
             </div>
         </nav>
 
@@ -43,7 +45,7 @@
 
         <div id="contract">
             <div class="container">
-                <h3 class="contract-title">Liên hệ với mình</h3>
+                <h3 class="contract-title">Hãy kết nối với mình <i class="fa-solid fa-link"></i></h3>
                 <div class="contract-link">
                     <div>
                         <a
@@ -134,5 +136,16 @@
         function sendEmail() {
             window.location.href = 'mailto:phamquiduong@outlook.com';
         }
+
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+
+            // Kiểm tra vị trí cuộn của trang
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled'); // Thêm lớp khi cuộn xuống
+            } else {
+                navbar.classList.remove('scrolled'); // Loại bỏ lớp khi cuộn lên
+            }
+        });
     </script>
 </html>
