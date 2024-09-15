@@ -61,7 +61,11 @@ nav {
 }
 
 .navbar-link > a {
-    margin: 0 5px;
+    margin: 0 10px;
+}
+
+.navbar-link > a:hover {
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .navbar-chat {
@@ -166,11 +170,11 @@ nav {
     }
 
     .slider_area-avatar {
-        height: 75%;
+        height: 60%;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 576px) {
     .slider_area {
         display: flex;
         flex-direction: column;
@@ -184,5 +188,9 @@ nav {
 
     .slider_area-avatar {
         height: 55%;
+    }
+
+    .navbar-link {
+        display: none;
     }
 }
