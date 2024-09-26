@@ -2,52 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
     <title>Pham Qui Duong</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
+    <link rel="stylesheet" href="assets/css/keyframe.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
   </head>
   <body>
     <nav id="navbar">
       <div class="navbar-brand">POQ</div>
-
       <div class="navbar-link">
         <a href="#home">Trang chủ</a>
         <a href="#contract">Liên hệ</a>
       </div>
-
-      <div class="navbar-chat">
+      <div class="navbar-email">
         <button onclick="sendEmail()">Gửi mail <i class="fa-regular fa-envelope"></i></button>
       </div>
     </nav>
 
-    <div id="home" class="slider_area">
-      <div class="slider_area-title">
+    <div id="home">
+      <div class="home-title">
         <div>Hi.. Mình là Dương</div>
         <div>Một lập trình viên Python <i class="fa-brands fa-python"></i></div>
       </div>
-      <div class="slider_area-avatar">
+      <div class="home-avatar">
         <img src="assets/img/PQD-transparent.png" />
       </div>
     </div>
 
+    <div id="working"></div>
+
+    <div id="education"></div>
+
     <div id="contract">
-      <div class="container">
+      <div>
         <h3 class="contract-title">Hãy kết nối với mình <i class="fa-solid fa-link"></i></h3>
         <div class="contract-link">
           <div>
             <a
               class="contract-link-item"
+              id="contract-link-facebook"
               target="_blank"
               class="text-decoration-none me-2"
               href="https://www.facebook.com/PhamQuiDuong"
@@ -129,5 +134,11 @@
         navbar.classList.remove('scrolled');
       }
     });
+
+    const contractLink = document.getElementById('contract-link-facebook');
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      contractLink.href = 'fb://profile/100050462980089';
+    }
   </script>
 </html>
