@@ -24,10 +24,12 @@
       <div class="navbar-brand">POQ</div>
       <div class="navbar-link">
         <a href="#home">Trang chủ</a>
+        <a href="#working">Làm việc</a>
+        <a href="#education">Học vấn</a>
         <a href="#contract">Liên hệ</a>
       </div>
-      <div class="navbar-email">
-        <button onclick="sendEmail()">Gửi mail <i class="fa-regular fa-envelope"></i></button>
+      <div>
+        <button onclick="openCV()">Xem CV của tôi <i class="fa-regular fa-paper-plane"></i></button>
       </div>
     </nav>
 
@@ -41,9 +43,43 @@
       </div>
     </div>
 
-    <div id="working"></div>
+    <div id="working">
+      <div>
+        <h3 class="working-title">Kinh nghiệm làm việc <i class="fa-regular fa-building"></i></h3>
+        <div class="working-company">
+          <div class="working-company-title">
+            <div class="working-link">
+              <a href="https://nals.vn/" class="working-link-item" target="_blank">
+                <img width="40" height="40" src="./assets/img/nals-white.png" />
+                Nal Solution
+              </a>
+            </div>
+            <div>
+              <p>7/2021 - Hiện tại</p>
+              <p id="working-time-nal-solution"></p>
+            </div>
+          </div>
+          <div class="working-company-skill">
+            <h3>Kỹ năng:</h3>
+            <ul>
+              <li><i class="fa-solid fa-code"></i> Ngôn ngữ lập trình Python, ngoài ra có thể làm việc với PHP</li>
+              <li>
+                <i class="fa-solid fa-folder-tree"></i> Các framework Backend như Django (SSR, Rest) | Flask | FastAPI
+              </li>
+              <li><i class="fa-solid fa-database"></i> Các loại SQL DB như Postgres | NoSQL như DynamoDB</li>
+              <li><i class="fa-solid fa-cloud"></i> Ngoài ra có thể làm việc với Docker và AWS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div id="education"></div>
+    <div id="education">
+      <div>
+        <h3 class="education-title">Học vấn <i class="fa-solid fa-graduation-cap"></i></h3>
+        <div>comming soon</div>
+      </div>
+    </div>
 
     <div id="contract">
       <div>
@@ -54,7 +90,6 @@
               class="contract-link-item"
               id="contract-link-facebook"
               target="_blank"
-              class="text-decoration-none me-2"
               href="https://www.facebook.com/PhamQuiDuong"
               target="_blank"
             >
@@ -66,7 +101,6 @@
             <a
               class="contract-link-item"
               target="_blank"
-              class="text-decoration-none me-2"
               href="https://www.instagram.com/phamquiduong_"
               target="_blank"
             >
@@ -80,34 +114,21 @@
             </a>
           </div>
           <div>
-            <a
-              class="contract-link-item"
-              target="_blank"
-              class="text-decoration-none me-2"
-              href="https://tiktok.com/@phamquiduong"
-              target="_blank"
-            >
+            <a class="contract-link-item" target="_blank" href="https://tiktok.com/@phamquiduong" target="_blank">
               <img width="48" height="48" src="https://img.icons8.com/color/48/tiktok--v1.png" alt="tiktok--v1" />
               Tiktok
             </a>
           </div>
           <div>
-            <a
-              class="contract-link-item"
-              target="_blank"
-              class="text-decoration-none me-2"
-              href="https://github.com/phamquiduong"
-              target="_blank"
-            >
-              <img width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github" />
-              Github
+            <a class="contract-link-item" target="_blank" href="mailto:phamquiduong@outlook.com" target="_blank">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/new-post.png" alt="new-post" />
+              Email
             </a>
           </div>
           <div>
             <a
               class="contract-link-item"
               target="_blank"
-              class="text-decoration-none"
               href="https://www.linkedin.com/in/phamquiduong/"
               target="_blank"
             >
@@ -115,30 +136,16 @@
               Linkedin
             </a>
           </div>
+          <div>
+            <a class="contract-link-item" target="_blank" href="https://github.com/phamquiduong" target="_blank">
+              <img width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github" />
+              Github
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </body>
 
-  <script>
-    function sendEmail() {
-      window.location.href = 'mailto:phamquiduong@outlook.com';
-    }
-
-    window.addEventListener('scroll', function () {
-      const navbar = document.getElementById('navbar');
-
-      if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-
-    const contractLink = document.getElementById('contract-link-facebook');
-    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-      contractLink.href = 'fb://profile/100050462980089';
-    }
-  </script>
+  <script src="/assets/js/index.js"></script>
 </html>

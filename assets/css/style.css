@@ -6,7 +6,7 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--primary-color);
   min-width: 320px;
   background-color: var(--background-color-2);
@@ -104,18 +104,24 @@ button:hover {
 }
 
 /* Contract */
-#contract {
+#contract,
+#working,
+#education {
   background-color: var(--background-color);
   padding: 30px 0;
 }
 
-#contract > div {
+#contract > div,
+#working > div,
+#education > div {
   max-width: 600px;
   margin: 0 auto;
 }
 
-.contract-title {
-  font-size: 1.4rem;
+.contract-title,
+.working-title,
+.education-title {
+  font-size: 1.3rem;
   margin-top: 5px;
   margin-bottom: 20px;
 }
@@ -131,7 +137,8 @@ button:hover {
   flex: 1;
 }
 
-.contract-link-item {
+.contract-link-item,
+.working-link-item {
   display: flex;
   align-items: center;
   border: 1px solid transparent;
@@ -142,8 +149,40 @@ button:hover {
   border: 1px solid var(--primary-color);
 }
 
-.contract-link-item > img {
+.contract-link-item > img,
+.working-link-item > img {
   margin-right: 10px;
+}
+
+/* Working */
+.working-company {
+  border: 1px solid rgb(104, 67, 80);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.working-company-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.working-link-item:hover {
+  border-bottom-color: transparent;
+}
+
+.working-company-skill > ul {
+  list-style: none;
+}
+.working-company-skill > ul > li {
+  margin-bottom: 10px;
+}
+.working-company-skill > ul > li > i {
+  width: 25px;
+}
+
+/* Education */
+#education {
+  background-color: var(--background-color-2);
 }
 
 /* Responsive */
