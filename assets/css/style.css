@@ -86,7 +86,7 @@ p {
   margin-left: 30px;
 }
 .home-title > div {
-  animation: fade-up 1s ease-in-out;
+  animation: fade-up 1.3s ease-in-out;
 }
 .home-title > div:nth-child(2) {
   animation-delay: 0.15s;
