@@ -26,10 +26,9 @@ function displayDiffTime(startDate, endTime, elementId) {
   remainingDays = remainingDays % 365
 
   const months = Math.floor(remainingDays / 30)
-  remainingDays = remainingDays % 30
 
   const element = document.getElementById(elementId)
-  element.innerText = `${years} năm ${months} tháng ${remainingDays} ngày`
+  element.innerText = `${years} năm ${months} tháng`
 }
 
 displayDiffTime(new Date('2021-07-21'), new Date(), 'working-time-nal-solution')
