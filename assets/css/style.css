@@ -10,6 +10,7 @@ html {
   color: var(--primary-color);
   min-width: 320px;
   background-color: var(--background-color-2);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,9 +21,15 @@ body {
 a {
   color: var(--primary-color);
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
 }
 a:hover {
   border-bottom: 1px solid var(--primary-color);
+}
+
+p {
+  margin: 5px;
 }
 
 /* Navibar */
@@ -106,6 +113,7 @@ a:hover {
 #education {
   background-color: var(--background-color);
   padding: 30px 0;
+  scroll-margin-top: 55px;
 }
 
 #contract > div,
@@ -135,7 +143,8 @@ a:hover {
 }
 
 .contract-link-item,
-.working-link-item {
+.working-link-item,
+.education-link-item {
   display: flex;
   align-items: center;
   border: 1px solid transparent;
@@ -147,34 +156,61 @@ a:hover {
 }
 
 .contract-link-item > img,
-.working-link-item > img {
+.working-link-item > img,
+.education-link-item > img {
   margin-right: 10px;
+  width: 48px;
 }
 
 /* Working */
-.working-company {
+.working-company,
+.education-school {
   border: 1px solid rgb(104, 67, 80);
   border-radius: 10px;
   padding: 10px 15px;
+  margin-bottom: 15px;
 }
 
-.working-company-title {
+.working-company-title,
+.education-school-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.working-link-item:hover {
+
+.working-link-item,
+.education-link-item {
+  padding: 0;
+}
+.working-link-item:hover,
+.education-link-item:hover {
   border-bottom-color: transparent;
 }
+.working-link-item > img,
+.education-link-item > img {
+  height: 35px;
+  width: 35px;
+}
 
-.working-company-skill > ul {
+.working-company-skill > ul,
+.education-school-certificate > ul {
   list-style: none;
 }
-.working-company-skill > ul > li {
+.working-company-skill > ul > li,
+.education-school-certificate > ul > li {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: -20px;
 }
-.working-company-skill > ul > li > i {
-  width: 25px;
+.working-company-skill > ul > li > i,
+.education-school-certificate > ul > li > i {
+  width: 30px;
+}
+.working-company-skill > ul > li > span,
+.education-school-certificate > ul > li > span {
+  text-align: justify;
+  flex: 1;
 }
 
 /* Education */
@@ -204,8 +240,9 @@ a:hover {
   .education-title {
     margin-left: 10px;
   }
-  .working-company {
-    margin: 0 5px;
+  .working-company,
+  .education-school {
+    margin: 0 7px 15px;
   }
 }
 

@@ -1,7 +1,3 @@
-function openCV() {
-  window.open('https://www.topcv.vn/xem-cv/AgEODF9ZVgcKVVcEUVEFUgcOUgBSUlwHUQVSWA3bf5', '_blank')
-}
-
 window.addEventListener('scroll', function () {
   const navbar = document.getElementById('navbar')
 
@@ -32,3 +28,24 @@ function displayDiffTime(startDate, endTime, elementId) {
 }
 
 displayDiffTime(new Date('2021-07-21'), new Date(), 'working-time-nal-solution')
+
+document.querySelector('.close').onclick = function () {
+  document.getElementById('modal').style.display = 'none'
+}
+
+window.onclick = function (event) {
+  if (event.target == document.getElementById('modal')) {
+    document.getElementById('modal').style.display = 'none'
+  }
+}
+
+function setOpenModalEvent(elementId, src) {
+  document.getElementById(elementId).onclick = function () {
+    document.getElementById('modal').style.display = 'flex'
+    document.getElementById('modalImage').src = src
+  }
+}
+
+setOpenModalEvent('openModalDUTCer1', 'assets/img/IMG_20230323_100040.jpg')
+setOpenModalEvent('openModalTKPCer1', 'assets/img/IMG20221215182702.jpg')
+setOpenModalEvent('openModalTKPCer2', 'assets/img/IMG20221215182743.jpg')

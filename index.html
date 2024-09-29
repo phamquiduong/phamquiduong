@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
     <link rel="stylesheet" href="assets/css/keyframe.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
   </head>
@@ -56,7 +57,7 @@
           <div class="working-company-title">
             <div class="working-link">
               <a href="https://nals.vn/" class="working-link-item" target="_blank">
-                <img width="40" height="40" src="./assets/img/nals-white.png" />
+                <img src="assets/img/nals-white.png" />
                 Nal Solution
               </a>
             </div>
@@ -66,14 +67,20 @@
             </div>
           </div>
           <div class="working-company-skill">
-            <h3>Kỹ năng:</h3>
+            <h4>Kỹ năng:</h4>
             <ul>
-              <li><i class="fa-solid fa-code"></i> Ngôn ngữ lập trình Python, ngoài ra có thể làm việc với PHP</li>
               <li>
-                <i class="fa-solid fa-folder-tree"></i> Các framework Backend như Django (SSR, Rest) | Flask | FastAPI
+                <i class="fa-solid fa-code"></i>
+                <span>Ngôn ngữ lập trình Python, ngoài ra có thể làm việc với PHP</span>
               </li>
-              <li><i class="fa-solid fa-database"></i> Các loại SQL DB như Postgres | NoSQL như DynamoDB</li>
-              <li><i class="fa-solid fa-cloud"></i> Ngoài ra có thể làm việc với Docker và AWS</li>
+              <li>
+                <i class="fa-solid fa-folder-tree"></i>
+                <span>Các framework Backend như Django (SSR, Rest) | Flask | FastAPI</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-database"></i> <span>Các loại SQL DB như Postgres | NoSQL như DynamoDB</span>
+              </li>
+              <li><i class="fa-solid fa-cloud"></i> <span>Ngoài ra có thể làm việc với Docker và AWS</span></li>
             </ul>
           </div>
         </div>
@@ -83,7 +90,54 @@
     <div id="education">
       <div>
         <h3 class="education-title">Học vấn <i class="fa-solid fa-graduation-cap"></i></h3>
-        <div>comming soon</div>
+        <div class="education-school">
+          <div class="education-school-title">
+            <div class="education-link">
+              <a href="https://www.tkp.edu.vn/" class="education-link-item" target="_blank">
+                <img src="assets/img/tkp-logo.png" />
+                THPT Trần Kỳ Phong
+              </a>
+            </div>
+            <div>
+              <p>2014 - 2017</p>
+            </div>
+          </div>
+          <div class="education-school-certificate">
+            <h4>Chứng nhận:</h4>
+            <ul>
+              <li>
+                <i class="fa-solid fa-certificate"></i>
+                <a id="openModalTKPCer1"> Giải nhất tin học cấp tỉnh Quảng Ngãi 2015 (Lớp 11) </a>
+              </li>
+              <li>
+                <i class="fa-solid fa-certificate"></i>
+                <a id="openModalTKPCer2"> Giải nhì tin học cấp tỉnh Quảng Ngãi 2016 (Lớp 12) </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-school">
+          <div class="education-school-title">
+            <div class="education-link">
+              <a href="https://dut.udn.vn/" class="education-link-item" target="_blank">
+                <img src="assets/img/logo-dai-hoc-bach-khoa-da-nang-inkythuatso.svg" />
+                ĐH Bách Khoa Đà Nẵng
+              </a>
+            </div>
+            <div>
+              <p>2017 - 2023</p>
+            </div>
+          </div>
+          <div class="education-school-certificate">
+            <h4>Chứng nhận:</h4>
+            <ul>
+              <li>
+                <i class="fa-solid fa-certificate"></i>
+                <a id="openModalDUTCer1"> Bằng kỹ sư công nghệ thông tin </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -95,61 +149,51 @@
             <a
               class="contract-link-item"
               id="contract-link-facebook"
-              target="_blank"
               href="https://www.facebook.com/PhamQuiDuong"
               target="_blank"
             >
-              <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
+              <img src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
               Facebook
             </a>
           </div>
           <div>
-            <a
-              class="contract-link-item"
-              target="_blank"
-              href="https://www.instagram.com/phamquiduong_"
-              target="_blank"
-            >
-              <img
-                width="48"
-                height="48"
-                src="https://img.icons8.com/fluency/48/instagram-new.png"
-                alt="instagram-new"
-              />
+            <a class="contract-link-item" href="https://www.instagram.com/phamquiduong_" target="_blank">
+              <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" />
               Instagram
             </a>
           </div>
           <div>
-            <a class="contract-link-item" target="_blank" href="https://tiktok.com/@phamquiduong" target="_blank">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/tiktok--v1.png" alt="tiktok--v1" />
+            <a class="contract-link-item" href="https://tiktok.com/@phamquiduong" target="_blank">
+              <img src="https://img.icons8.com/color/48/tiktok--v1.png" alt="tiktok--v1" />
               Tiktok
             </a>
           </div>
           <div>
-            <a class="contract-link-item" target="_blank" href="mailto:phamquiduong@outlook.com" target="_blank">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/new-post.png" alt="new-post" />
+            <a class="contract-link-item" href="mailto:phamquiduong@outlook.com" target="_blank">
+              <img src="https://img.icons8.com/color/48/new-post.png" alt="new-post" />
               Email
             </a>
           </div>
           <div>
-            <a
-              class="contract-link-item"
-              target="_blank"
-              href="https://www.linkedin.com/in/phamquiduong/"
-              target="_blank"
-            >
-              <img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" />
+            <a class="contract-link-item" href="https://www.linkedin.com/in/phamquiduong/" target="_blank">
+              <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" />
               Linkedin
             </a>
           </div>
           <div>
-            <a class="contract-link-item" target="_blank" href="https://github.com/phamquiduong" target="_blank">
-              <img width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github" />
+            <a class="contract-link-item" href="https://github.com/phamquiduong" target="_blank">
+              <img src="https://img.icons8.com/fluency/48/github.png" alt="github" />
               Github
             </a>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" src="" alt="Hình ảnh" />
     </div>
   </body>
 
