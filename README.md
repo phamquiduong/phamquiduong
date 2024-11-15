@@ -11,7 +11,7 @@
 > - **Full name:** Pham Qui Duong
 > - **Year of birth:** 1999
 > - **Gender:** Male
-> - **Address:** [Binh Duong, Binh Son, Quang Ngai, Viet Nam](https://maps.app.goo.gl/asHjSnJ8Qu7hzeyF9)
+> - **Address:** [Quang Ngai, Viet Nam](https://maps.app.goo.gl/asHjSnJ8Qu7hzeyF9)
 > - **Email:** [phamquiduong@outlook.com](mailto:phamquiduong@outlook.com)
 > - **Website**: [More information about me](https://phamquiduong.github.io/phamquiduong/)
 
@@ -32,7 +32,7 @@
 <br>
 
 ### Work experience
-> - Jul 2021 - now
+> - Jul 2021 - Nov 2024
 >	- **Python Developer**
 >	- [Nal Solution Da Nang](https://nals.vn/)
 
@@ -43,20 +43,14 @@
 ### Program languages:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
 ### Frameworks:
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### Databases:
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -68,7 +62,6 @@
 
 ### Tools:
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 <br>
 <br>

@@ -27,7 +27,7 @@ function displayDiffTime(startDate, endTime, elementId) {
   element.innerText = `${years} năm ${months} tháng`
 }
 
-displayDiffTime(new Date('2021-07-21'), new Date(), 'working-time-nal-solution')
+displayDiffTime(new Date('2021-07-21'), new Date('2024-11-15'), 'working-time-nal-solution')
 
 document.querySelector('.close').onclick = function () {
   document.getElementById('modal').style.display = 'none'
