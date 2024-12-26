@@ -134,12 +134,10 @@ p {
 .contract-link {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  height: 200px;
 }
 
 .contract-link > div {
-  flex: 1;
+  width: 50%;
 }
 
 .contract-link-item,
@@ -230,7 +228,6 @@ p {
   }
   .home-avatar {
     margin-right: 0;
-    /* animation: none; */
   }
   .navbar-link {
     display: none;
