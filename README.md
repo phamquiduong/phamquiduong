@@ -4,7 +4,7 @@
 
 <br>
 
-[Visit here for more information about me!](https://phamquiduong.github.io/phamquiduong/)
+[Visit here for more information about me!](https://phamquiduong.github.io/)
 
 <br>
 <hr>
